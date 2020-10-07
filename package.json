@@ -1,0 +1,36 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d build --public-url /bingo/",
+    "deploy": "gh-pages -d build",
+    "clean": "rm -rf dist build .cache",
+    "help": "echo 1- npm start, 2-npm run build, 3-npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielmagox/bingo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielmagox/bingo/issues"
+  },
+  "homepage": "https://github.com/Danielmagox/bingo#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
