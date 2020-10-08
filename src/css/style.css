@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+
+.bingo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titles {
+  width: 1100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 20px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player_part,
+.cpu_part {
+  width: 400px;
+  height: 400px;
+  vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.dice {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice_number {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(91, 91, 165);
+  font-size: 48px;
+  margin: 10px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  font-size: 24px;
+  margin: 3px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cross_number {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  font-size: 24px;
+  margin: 3px;
+  text-decoration: line-through;
+  color: red;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
